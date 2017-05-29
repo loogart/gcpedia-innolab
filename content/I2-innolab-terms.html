@@ -1,0 +1,100 @@
+<html>
+<div class="super-body">
+    <!-- pure horizontal menu -->
+    <div class="custom-menu-wrapper">
+        <div class="pure-menu custom-menu custom-menu-top">
+            <a class="pure-menu-heading custom-menu-brand" href="Main%20Page" target="_blank"><span class=
+                "fip-navbar"></span></a> <a class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+        </div>
+        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+            <div class="custom-menu-screen"></div>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab">Home</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab%20About">About</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab%20Get%20Started">Get started</a>
+                </li>
+                <!--<li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab%20Visit">Visit</a>
+                </li>-->
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab%20Discussion">Discuss</a>
+                </li>
+            </ul>
+            <ul class="pure-menu-list align-right">
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link" href="mailto:innolab@international.gc.ca">Contact</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC Innolab Terms FR">FR</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- hello world-->
+    <!-- jumbotron -->
+    <div class="j1 img-j3">
+        <div class="text-block-1">
+            <h3 class="baby-blue">InnoLab</h3>
+            <h1>User agreement</h1>
+        </div>
+    </div>
+    <!-- section 3: Toolkit-->
+    <div class="pure-g section-3">
+        <div class="pure-u-1 text-block-3">
+            <h4>InnoLab user agreement</h4>
+            <p>This "User Agreement" is an agreement between you and the Global Affairs Canada and applies to your use of Software as a Service (SaaS) and any related information. It outlines your responsibilities and obligations associated with the use of Software as a Service (i.e. Prezzi, Watson Analytics). Please read this User Agreement and checkmark to acknowledge that you understand and accept the terms and conditions.</p>
+            <ol>
+                <li>Information Sensitivity Limits: Users of SaaS software procured via the Innolab shall only process or store UNCLASSIFIED information. By agreeing to the "Terms and Conditions" you are explicitly agreeing that you will not process PROTECTED A, PROTECTED B, or classified information using Innolab procured software.</li>
+                <li>Information Protection: Users are responsible for protecting their information on a SaaS accessed via a temporary account provided by the InnoLAB Team.</li>
+                <li>Account Access: The InnoLAB Team retains sole ownership of all Cloud Based Accounts provided to the user on a temporary basis. Accounts will be issued to authorized users and must not be shared. The InnoLAB retains the right to modify account access to a SaaS at any time. To help mitigate potential compromise, a strong password contains a minimum of 8 characters, including a number, an uppercase letter and a lowercase letter and no more than 3 consecutive identical characters will be provided.</li>
+                <li>Stolen or Lost Account Access: Users will take all reasonable efforts to protect account access information to the provided SaaS. Lost accounts are to be reported to the InnoLAB Team immediately.</li>
+                <li>Acceptable Use: Users agree to the terms and conditions set forth in the DFATD "Acceptable Use Policy" Violation of these guidelines constitutes unacceptable use of computer, network and electronic resources, and may result in legal and/or disciplinary actions.</li>
+            </ol>
+            <p>By requesting access to a Cloud Based Service account granted by the InnoLAB, I agree that I am responsible for protection of department information and will follow department guidelines for access control and protection of sensitive information.</p>
+            <p>Basically, don't spoil the party, use your judgement and be responsible with your information!</p>
+        </div>
+        <div class="pure-u-1 text-block-3">
+            <div class="checkbox-action">
+                <form class="form-signin">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="terms and conditions" id="checkbox"> By checking this box, you agree to our terms and conditions.
+                        </label>
+                    </div>
+                    <a href="https://gac-amc.uservoice.com" id="supsup" class="pure-button pure-button-blue button-xlarge hidden" type="submit">Access Uservoice @ GAC</a>
+                </form>
+                <style>
+                    .hidden{
+                        display: none;
+                    }
+                </style>
+                <script>
+                    $(document).ready(function () {
+                        var ckbox = $('#checkbox');
+                        $('input').on('click', function () {
+                            if (ckbox.is(':checked')) {
+                                $('#supsup').removeClass('hidden');
+                            } else {
+                                $('#supsup').addClass('hidden');
+                            }
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="pure-g section-footer">
+        <div class="pure-u-1 text-center">
+            © 2016 Made with <span class="footer-strikethrough">love</span> a keyboard by <a class="baby-blue" href="https://gcconnex.gc.ca/profile/Chris.Soueidan" target="_blank">Chris Soueidan</a> of Global Affairs Canada
+            <a accesskey="e" href="/gcwiki/index.php?title=GAC_Innolab_Terms&amp;action=edit" style="cursor:default;color:white" title="Edit this page [alt-e]">(SIAI) &phi;</a>.
+        </div>
+    </div>
+</div>
+
+</html>

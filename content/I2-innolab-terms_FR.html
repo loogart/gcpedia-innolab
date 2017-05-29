@@ -1,0 +1,89 @@
+<html>
+<div class="super-body">
+    <!-- pure horizontal menu -->
+    <div class="custom-menu-wrapper">
+        <div class="pure-menu custom-menu custom-menu-top">
+            <a href="Main Page" class="pure-menu-heading custom-menu-brand" target="_blank">
+                <span class="fip-navbar"></span>
+            </a>
+            <a class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+        </div>
+        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+            <div class="custom-menu-screen"></div>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="GAC Innolab FR" class="pure-menu-link link">Accueil</a></li>
+                <li class="pure-menu-item"><a href="GAC Innolab About FR" class="pure-menu-link link">À propos</a></li>
+                <li class="pure-menu-item"><a href="GAC Innolab Get Started FR" class="pure-menu-link link">Débuter</a></li>
+                <!--<li class="pure-menu-item">
+                    <a class="pure-menu-link link" href="GAC%20Innolab%20Visit%20FR">Visiter</a>
+                </li>-->
+                <li class="pure-menu-item"><a href="GAC Innolab Discussion FR" class="pure-menu-link link">Discuter</a></li>
+            </ul>
+            <ul class="pure-menu-list align-right">
+                <li class="pure-menu-item"><a href="mailto:innolab@international.gc.ca" class="pure-menu-link">Contact</a></li>
+                <li class="pure-menu-item"><a href="GAC Innolab Terms" class="pure-menu-link link">EN</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="j1 img-j3">
+        <div class="text-block-1">
+            <h3 class="baby-blue">InnoLab</h3>
+            <h1>Entente d’utilisation</h1>
+        </div>
+    </div>
+    <!-- section 3: Toolkit-->
+    <div class="pure-g section-3">
+        <div class="pure-u-1 text-block-3">
+            <h4>Entente d’utilisation des logiciels services InnoLab</h4>
+            <p>La présente « entente d’utilisation » est conclue entre vous-même et Affaires mondiales Canada (AMC) et concerne votre utilisation de logiciels services (SaaS) ainsi que de tous les renseignements connexes. Elle décrit brièvement vos responsabilités et vos obligations en ce qui a trait à l’utilisation des logiciels services (p. ex. Prezi, Watson Analytics). Veuillez lire les modalités de l'Entente d'utilisation et cocher la case afin de confirmer que vous comprenez et que vous acceptez les modalités.</p>
+            <ol>
+                <li>Limites quant à la sensibilité de l'information : Les utilisateurs de logiciels services fournis par InnoLAB doivent traiter ou stocker uniquement des renseignements NON CLASSIFIÉS. En approuvant les modalités d'utilisation, vous acceptez explicitement de ne pas traiter de renseignements PROTÉGÉ A, PROTÉGÉ B ou classifiés au moyen des logiciels fournis par InnoLAB.</li>
+                <li>Protection de l'information : Il incombe aux utilisateurs de protéger les renseignements qu'ils traitent lorsqu'ils se servent de logiciels services auxquels ils accèdent à l'aide d'un compte temporaire fourni par l'équipe d'InnoLAB.</li>
+                <li>Accès aux comptes : L'équipe d'InnoLAB est l'unique propriétaire de tous les comptes d'infonuagique fournis temporairement aux utilisateurs. Les comptes seront créés pour les utilisateurs autorisés et ne doivent pas être partagés. InnoLAB conserve le droit de modifier les comptes d'accès aux logiciels services en tout temps. Pour atténuer le risque de compromission, InnoLAB fournira un mot de passe sécuritaire formé d'au moins 8 caractères, dont un chiffre, une majuscule et une minuscule, et pas plus de 3 caractères identiques consécutifs.</li>
+                <li>Justificatifs perdus ou volés : Les utilisateurs doivent prendre toutes les mesures raisonnables pour protéger leurs justificatifs leur permettant d'accéder aux logiciels services. Tout justificatif perdu doit immédiatement être signalé à l'équipe d'InnoLAB.</li>
+                <li>Utilisation acceptable : Les utilisateurs acceptent les modalités prévues par la « Politique sur l’utilisation acceptable des réseaux » du MAECD; la violation de ces lignes directrices constitue un usage inacceptable des ordinateurs, des réseaux et des ressources électroniques, qui pourrait entraîner la prise de mesures juridiques ou disciplinaires.</li>
+            </ol>
+            <p>En demandant l'accès à un service d'infonuagique fourni par InnoLAB, je comprends que je suis responsable de la protection des renseignements ministériels et m'engage à respecter les lignes directrices du Ministère relatives au contrôle d'accès et à la protection des renseignements sensibles.</p>
+            <p>En bref, veuillez faire preuve de jugement et agir de façon responsable pour protéger vos renseignements.</p>
+        </div>
+        <div class="pure-u-1 text-block-3">
+            <div class="checkbox-action">
+                <form class="form-signin">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="terms and conditions" id="checkbox"> En cochant cette case, vous acceptez nos termes et conditions.
+                        </label>
+                    </div>
+                    <a href="https://gac-amc.uservoice.com" id="supsup" class="pure-button pure-button-blue button-xlarge hidden" type="submit">Accèdez à Uservoice pour AMC</a>
+
+                </form>
+                <style>
+                    .hidden {
+                        display: none;
+                    }
+                </style>
+                <script>
+                    $(document).ready(function () {
+                        var ckbox = $('#checkbox');
+                        $('input').on('click', function () {
+                            if (ckbox.is(':checked')) {
+                                $('#supsup').removeClass('hidden');
+                            } else {
+                                $('#supsup').addClass('hidden');
+                            }
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="pure-g section-footer">
+        <div class="pure-u-1 text-center">
+            © 2016 Créé avec <span class="footer-strikethrough">de l'amour</span> un clavier par <a class="baby-blue" href="https://gcconnex.gc.ca/profile/Chris.Soueidan" target="_blank">Chris Soueidan</a> des Affaires Mondiales Canada <a title="Edit this page [alt-e]" accesskey="e" href="/gcwiki/index.php?title=GAC_Innolab_Terms_FR&amp;action=edit" style="cursor:default;color:#fff;">(SIAI) &phi;</a>.
+        </div>
+    </div>
+</div>
+
+</html>
